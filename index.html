@@ -3,71 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>我的博客</title>
+  <title>welcome to yumoxuan's blog page!</title>
   <style>
-    /* 在这里添加您的自定义样式 */
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
+      background-color: #f0f0f0;
     }
 
     header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
+      background: url('asserts/img/helo.jpg') no-repeat center center;
+      background-size: cover;
+      height: 300px;
       text-align: center;
+      color: #fff;
+      padding-top: 100px;
     }
 
-    h1 {
+    header h1 {
       margin: 0;
+      font-size: 36px;
     }
 
     main {
-      margin: 20px;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
-    article {
+    .post {
       margin-bottom: 30px;
     }
 
-    h2 {
+    .post h2 {
       margin-top: 0;
     }
 
-    p {
+    .post img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .post p {
       line-height: 1.6;
     }
 
     footer {
       background-color: #333;
       color: #fff;
-      padding: 10px;
       text-align: center;
+      padding: 10px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>欢迎来到我的博客</h1>
-  </header>
+<header>
+  <h1>欢迎来到二次元世界！</h1>
+</header>
 
-  <main>
-    <article>
-      <h2>文章标题 1</h2>
-      <p>这是文章 1 的内容。您可以根据需要添加更多段落和文本。</p>
-    </article>
+<main>
+  <div class="post">
+    <h2>文章标题 1</h2>
+    <img src="asserts/img/ikaros-watermelon.png" alt="文章图片 1">
+    <p>这是文章 1 的内容。您可以在这里添加更多关于您二次元世界的描述和故事。</p>
+  </div>
 
-    <article>
-      <h2>文章标题 2</h2>
-      <p>这是文章 2 的内容。您可以根据需要添加更多段落和文本。</p>
-    </article>
+  <div class="post">
+    <h2>文章标题 2</h2>
+    <img src="asserts/img/ikaros.jpg" alt="文章图片 2">
+    <p>这是文章 2 的内容。您可以继续分享您的二次元经历、喜欢的角色和更多精彩内容。</p>
+  </div>
 
-    <!-- 在这里添加更多文章 -->
-  </main>
+  <!-- 在这里添加更多文章 -->
+</main>
 
-  <footer>
-    <p>版权所有 &copy; 2023 我的博客</p>
-  </footer>
+<footer>
+  <p>版权所有 &copy; 2023 二次元主页</p>
+</footer>
+
+<!-- 可以在这里添加背景音乐，使用占位符xxx代替音频路径 -->
+ <audio autoplay loop>
+    <source src="asserts/music/阿梨粤-最爱.mp3" type="audio/mpeg">
+</audio>
 </body>
 </html>
